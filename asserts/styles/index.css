@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+
+nav .navbar-brand{
+    text-decoration: none;
+    color: #FC4308;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+
+}
+
+nav .categories-list{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-top: 15px;
+}
+
+.header-icon img{
+    width: 120px;
+}
+
+.search-input{
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+}
+
+.left-icon input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.right-section .search-text{
+    border: 1px solid #F5F5F5;
+    display: flex;
+    padding: 12px;
+    background-color: #F5F5F5;
+    width: auto;
+    padding:14px, 16px, 14px, 16px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+.right-section input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 300px;
+}
+
+.avatar{
+    align-items: center;
+}
+.avatar p{
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width:768px) {
+    .right-section ul{
+        display: none;
+    }
+    .right-section .rounded-circle{
+        display: none;
+    }
+    .right-section .mt-3, .right-section img{
+        display: none;
+    }
+    
+}
+
+
+.second-section .card{
+    height: 48px;
+    width: 160px;
+    flex: none;
+    text-align: center;
+    padding:10px;
+    color: #ffffff;
+}
+
+
+.second-section .carousel-cards{
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 10px;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    
+}
+
+.second-section .carousel-cards::-webkit-scrollbar{
+    display: none;
+}
+.second-section .next-btn{
+    align-items: center;
+    display: flex;
+    position: sticky;
+    right: 0;
+}
