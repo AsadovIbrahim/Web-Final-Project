@@ -6,6 +6,18 @@
     box-sizing: border-box;
     font-family: Roboto;
 }
+.navbar-toggler{
+    display: none;
+}
+
+@media screen and (max-width:1200px){
+    .navbar-toggler{
+        display: inline;
+        order: -1;
+    }
+   
+}
+
 
 
 nav .navbar-brand{
@@ -16,7 +28,6 @@ nav .navbar-brand{
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 0px;
-
 }
 
 nav .categories-list{
@@ -67,6 +78,12 @@ nav .categories-list{
     margin-top: 15px;
 }
 
+@media screen and (max-width:1200px){
+    .right-section{
+        display: none !important;
+    }
+   
+}
 
 @media screen and (max-width:768px) {
     .right-section ul{
@@ -124,6 +141,14 @@ nav .categories-list{
     
 }
 
+@media screen and (max-width:1024px) {
+    .second-section .carousel-cards{
+        display: none !important;
+    }
+}
+
+
+
 .second-section .carousel-cards::-webkit-scrollbar{
     display: none;
 }
@@ -134,3 +159,24 @@ nav .categories-list{
     right: 0;
 
 }
+
+
+
+
+ .section-3-cards .card-text-border{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    left: 0;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 10px;
+    right: 0;
+}
+
+@media screen and (max-width:1024px) {
+    .section-3-cards{
+        display: none !important;
+    }
+  }
+
