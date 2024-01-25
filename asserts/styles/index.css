@@ -178,5 +178,23 @@ nav .categories-list{
     .section-3-cards{
         display: none !important;
     }
-  }
+}
+.tablet-carousel-section-3{
+    display: none;
+} 
 
+.tablet-carousel-section-3 img{
+    height: 320px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width:1024px) {
+    .tablet-carousel-section-3{
+        display: inline;
+    }
+}
+@media screen and (max-width:430px) {
+    .tablet-carousel-section-3{
+        display: none;
+    }
+}
