@@ -185,6 +185,7 @@ nav .categories-list{
 
 .tablet-carousel-section-3 img{
     height: 320px;
+    object-fit:cover;
     border-radius: 25px;
 }
 
