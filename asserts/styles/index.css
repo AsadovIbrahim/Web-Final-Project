@@ -219,18 +219,19 @@ nav .categories-list{
     background-color: rgba(248, 21, 57, 1);
 }
 .section-4 .cards{
-    background-color: red;
     display: flex;
     gap: 25px;
     overflow-x: scroll;
 }
 
-
-.section-4 .right-section .buttons{
+.section-4 .cards::-webkit-scrollbar{
+    display: none;
+}
+.section-4 .right-section-buttons .buttons{
     display: flex;
     gap: 15px;
 }
-.section-4 .right-section .buttons .button-border{
+.section-4 .right-section-buttons .buttons .button-border{
     width: 40px;
     height: 40px;
     background-color: rgba(245, 245, 245, 1);

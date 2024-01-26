@@ -14,3 +14,17 @@ nextBtn.addEventListener("click", () => {
     }
 });
 
+
+let carouselCards=document.querySelector(".cards");
+let preview=document.getElementById("back");
+let next=document.getElementById("next");
+
+next.addEventListener("click",()=>{
+    carouselCards.style.scrollBehavior="smooth";
+    carouselCards.scrollLeft+=360;
+});
+
+preview.addEventListener("click",()=>{
+    carouselCards.style.scrollBehavior="smooth";
+    carouselCards.scrollLeft-=360;
+});
