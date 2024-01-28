@@ -279,3 +279,33 @@ nav .categories-list{
 .section-4 .card-end .left-section img{
     border-radius: 12px;
 }
+
+.section-5-tablet{
+    display: none;
+}
+
+.section-5-mobile{
+    display: none;
+}
+@media screen and (max-width:1024px) {
+    .section-5{
+        display: none;
+    }
+    .section-5-tablet{
+        display: inline;
+    }
+    
+}
+
+
+@media screen and (max-width:450px) {
+    .section-5{
+        display: none;
+    }
+    .section-5-tablet{
+        display: none;
+    }
+    .section-5-mobile{
+        display: inline;
+    }
+}
