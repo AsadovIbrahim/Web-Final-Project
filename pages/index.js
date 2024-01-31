@@ -28,3 +28,20 @@ preview.addEventListener("click",()=>{
     carouselCards.style.scrollBehavior="smooth";
     carouselCards.scrollLeft-=360;
 });
+
+
+
+
+let carouselCards6=document.querySelector(".section-6-mobile-cards");
+let preview6=document.getElementById("back-6");
+let next6=document.getElementById("next-6");
+
+next6.addEventListener("click",()=>{
+    carouselCards6.style.scrollBehavior="smooth";
+    carouselCards6.scrollLeft+=360;
+});
+
+preview6.addEventListener("click",()=>{
+    carouselCards6.style.scrollBehavior="smooth";
+    carouselCards6.scrollLeft-=360;
+});
