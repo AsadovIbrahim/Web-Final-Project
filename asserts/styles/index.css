@@ -194,7 +194,7 @@ nav .categories-list{
         display: inline;
     }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:460px) {
     .tablet-carousel-section-3{
         display: none;
     }
@@ -467,3 +467,108 @@ nav .categories-list{
         display: inline;
     }
 }
+
+
+
+.section-7{
+    background-color: rgba(245, 245, 245, 1);
+    padding-bottom: 100px;
+}
+
+.section-7-header{
+    display: flex;
+    justify-content: space-between;
+}
+.section-7-header .left-section{
+    display: flex;
+    align-items: center;
+    line-height: 23.44px;
+    font-weight: 500;
+}
+
+.section-7-header .left-section .red{
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+    background-color: rgba(248, 21, 57, 1);
+}
+
+.section-7 .right-section-buttons .buttons{
+    display: flex;
+    gap: 15px;
+}
+.section-7 .right-section-buttons .buttons .button-border{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(62, 50, 50, 0.05);
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.section-7 .section-7-cards .left-section{
+    position: relative;
+}
+.section-7 .section-7-cards .left-section img{
+    border-radius: 12px;
+
+}
+.section-7 .section-7-cards .left-section .card-text{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    margin: 10px;
+    width: 724px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.section-7 .section-7-cards .right-section .cards-7{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+.section-7 .section-7-cards .right-section .cards-7::-webkit-scrollbar{
+    display: none;
+}
+
+.section-7 .section-7-cards .right-section .cards-7 .card{
+    flex-direction: row;
+    width: 100%;
+
+    height: 210px;
+    flex: none;
+}
+.section-7 .section-7-cards .right-section .cards-7 .card .rounded{
+    width: 40%;
+}
+
+.section-7 .section-7-cards .right-section .cards-7 .card img{
+    object-fit: cover;
+}
+
+.section-7 .tablet-carousel-7{
+    display: none;
+} 
+
+
+@media screen and (max-width:1024px) {
+    .section-7-cards{
+        display: none !important;
+    }
+    .section-7 .tablet-carousel-7{
+        display: inline;
+    }
+}
+@media screen and (max-width:1200px){
+    .section-7 .right-section-buttons{
+        display: none;
+    }
+}
+
+.tablet-carousel-7 img{
+    height: 320px;
+    object-fit:cover;
+    border-radius: 25px;
+}
+

@@ -45,3 +45,24 @@ preview6.addEventListener("click",()=>{
     carouselCards6.style.scrollBehavior="smooth";
     carouselCards6.scrollLeft-=360;
 });
+
+
+
+
+
+let carouselCards7=document.getElementById("cards-7");
+let carouselCards7_2=document.getElementById("cards-7-2");
+let preview7=document.getElementById("back-7");
+let next7=document.getElementById("next-7");
+
+next7.addEventListener("click",()=>{
+    carouselCards7.style.scrollBehavior="smooth";
+    carouselCards7_2.style.scrollBehavior="smooth";
+    carouselCards7.scrollLeft+=360;
+    carouselCards7_2.scrollLeft+=360;
+});
+
+preview7.addEventListener("click",()=>{
+    carouselCards7.scrollLeft-=360;
+    carouselCards7_2.scrollLeft-=360;
+});
