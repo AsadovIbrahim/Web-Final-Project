@@ -572,3 +572,94 @@ nav .categories-list{
     border-radius: 25px;
 }
 
+
+
+.section-8-header{
+    display: flex;
+    justify-content: space-between;
+}
+.section-8-header .left-section{
+    display: flex;
+    align-items: center;
+    line-height: 23.44px;
+    font-weight: 500;
+}
+
+.section-8-header .left-section .red{
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+    background-color: rgba(248, 21, 57, 1);
+}
+.section-8 .cards-8{
+    display: flex;
+    gap: 25px;
+    overflow-x: scroll;
+}
+
+.section-8 .cards-8::-webkit-scrollbar{
+    display: none;
+}
+.section-8 .right-section-buttons .buttons{
+    display: flex;
+    gap: 15px;
+}
+.section-8 .right-section-buttons .buttons .button-border{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.section-8 .cards-8 .card{
+    flex: none;
+}
+
+
+.section-8 .cards-8 h5{
+    font-size: 16px !important;
+}
+
+.section-8 .cards-8 p{
+    font-size: 14px;
+    color: rgba(62, 50, 50, 0.75);
+    text-transform: capitalize;
+}
+
+.section-8 .card-end{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    background-color: rgba(245, 245, 245, 1);
+}
+.section-8 .card-end .left-section .image-text{
+    line-height: 22px;
+    align-items: center;
+}
+.section-8 .card-end .left-section .image-text b{
+    font-size: 14px;
+}
+.section-8 .card-end .left-section .image-text p{
+    font-size: 12px;
+}
+
+.section-8 .card-end .left-section img{
+    border-radius: 12px;
+}
+
+.section-9{
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.section-9 .left-section img{
+    width: 630px;
+}
+
+.section-9 .right-section img{
+    width: 310px;
+}

@@ -11,6 +11,7 @@ nextBtn.addEventListener("click", () => {
     } else {
         scrollContainer.style.scrollBehavior = "smooth";
         scrollContainer.scrollLeft += totalWidth;
+        nextBtn.style.marginLeft="-40px";
     }
 });
 
@@ -49,7 +50,6 @@ preview6.addEventListener("click",()=>{
 
 
 
-
 let carouselCards7=document.getElementById("cards-7");
 let carouselCards7_2=document.getElementById("cards-7-2");
 let preview7=document.getElementById("back-7");
@@ -65,4 +65,19 @@ next7.addEventListener("click",()=>{
 preview7.addEventListener("click",()=>{
     carouselCards7.scrollLeft-=360;
     carouselCards7_2.scrollLeft-=360;
+});
+
+
+
+let carouselCards8=document.querySelector(".cards-8");
+let preview8=document.getElementById("back-8");
+let next8=document.getElementById("next-8");
+
+next8.addEventListener("click",()=>{
+    carouselCards8.style.scrollBehavior="smooth";
+    carouselCards8.scrollLeft+=360;
+});
+
+preview8.addEventListener("click",()=>{
+    carouselCards8.scrollLeft-=360;
 });
