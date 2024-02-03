@@ -657,9 +657,127 @@ nav .categories-list{
 }
 
 .section-9 .left-section img{
-    width: 630px;
+    width: 642px;
 }
 
-.section-9 .right-section img{
+.section-9 .right-section-9 img{
     width: 310px;
+}
+.section-9-tablet{
+    display: none;
+}
+.section-9-mobile{
+    display: none;
+}
+@media screen and (max-width:1200px) {
+    .section-9-cards{
+        display: none !important;
+    }
+    .section-9-tablet{
+        display: inline;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .section-9-tablet img{
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:460px) {
+    .section-9-mobile{
+        display: inline;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .section-9-tablet{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+.section-10-header{
+    display: flex;
+    justify-content: space-between;
+}
+.section-10-header .left-section{
+    display: flex;
+    align-items: center;
+    line-height: 23.44px;
+    font-weight: 500;
+}
+
+.section-10-header .left-section .red{
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+    background-color: rgba(248, 21, 57, 1);
+}
+.section-10 .cards-10{
+    display: flex;
+    gap: 25px;
+    overflow-x: scroll;
+}
+
+.section-10 .cards-10::-webkit-scrollbar{
+    display: none;
+}
+.section-10 .right-section-buttons .buttons{
+    display: flex;
+    gap: 15px;
+}
+.section-10 .right-section-buttons .buttons .button-border{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.section-10 .cards-10 .card{
+    flex: none;
+}
+
+
+.section-10 .cards-8 h5{
+    font-size: 16px !important;
+}
+
+.section-10 .cards-10 p{
+    font-size: 14px;
+    color: rgba(62, 50, 50, 0.75);
+    text-transform: capitalize;
+}
+
+.section-10 .card-end{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    background-color: rgba(245, 245, 245, 1);
+}
+.section-10 .card-end .left-section .image-text{
+    line-height: 22px;
+    align-items: center;
+}
+.section-10 .card-end .left-section .image-text b{
+    font-size: 14px;
+}
+.section-10 .card-end .left-section .image-text p{
+    font-size: 12px;
+}
+
+.section-10 .card-end .left-section img{
+    border-radius: 12px;
 }

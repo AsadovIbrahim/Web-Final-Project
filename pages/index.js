@@ -81,3 +81,20 @@ next8.addEventListener("click",()=>{
 preview8.addEventListener("click",()=>{
     carouselCards8.scrollLeft-=360;
 });
+
+
+
+
+
+let carouselCards10=document.querySelector(".cards-10");
+let preview10=document.getElementById("back-10");
+let next10=document.getElementById("next-10");
+
+next10.addEventListener("click",()=>{
+    carouselCards10.style.scrollBehavior="smooth";
+    carouselCards10.scrollLeft+=360;
+});
+
+preview10.addEventListener("click",()=>{
+    carouselCards10.scrollLeft-=360;
+});
