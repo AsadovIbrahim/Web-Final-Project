@@ -781,3 +781,107 @@ nav .categories-list{
 .section-10 .card-end .left-section img{
     border-radius: 12px;
 }
+
+
+
+.footer-section .left-section .red{
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+    background-color: rgba(248, 21, 57, 1);
+}
+
+.footer-section .left-main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius:0px 50px 50px 0px;
+    
+}
+
+.footer-section .left-section .left-section-text{
+    width: 350px;
+}
+
+.footer-section .left-section .left-section-text p{
+    font-size: 14px;
+}
+
+.footer-section .input-section input{
+    outline: none;
+    width: 390px;
+    border: none;
+}
+.footer-section .input-section .input-email{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    padding: 10px;
+    width: 390px;
+}
+.footer-section .left-main .copyright-section{
+    background-color:rgba(62, 50, 50, 0.05);
+    justify-content: space-around;
+    margin: 50px;
+    border-radius: 0px 12px 12px 0px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+.footer-section .right-section-categories ul{
+    list-style: none;
+    font-size: 12px;
+    line-height: 2.3;
+}
+
+.footer-section .right-section-categories a{
+    text-decoration: none;
+    color: rgba(62, 50, 50, 1);
+}
+
+.footer-section .right-section-categories .social-networks{
+    display: flex;
+}
+.footer-section .right-section-categories .social-network{
+    
+    background: linear-gradient(262.85deg, #F45C9F 5.57%, #FF7563 73.65%);
+    border-radius: 12px;
+}
+.footer-section .right-section-categories .social-network-tw{
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: linear-gradient(227.96deg, #2CA5E0 11.38%, #67C9F5 84.07%);
+}
+
+
+.footer-section .comments .left-section-header .red{
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+    background-color: rgba(248, 21, 57, 1);
+}
+
+.footer-section .comments .comments-borders{
+    background-color: rgba(245, 245, 245, 1);
+    padding: 16px;
+    text-transform: capitalize;
+    border-radius: 12px;
+}
+
+.footer-section .comments p{
+    font-size: 12px;
+}
+.footer-section .comments h5{
+    font-size: 16px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .footer-section .comments{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .footer-section{
+        display: none;
+    }
+}
