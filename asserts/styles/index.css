@@ -885,3 +885,23 @@ nav .categories-list{
         display: none;
     }
 }
+
+
+.footer-section .follow-instagram .left-section-header .red{
+    width: 4px;
+    height: 10px;
+    border-radius: 12px;
+    background-color: rgba(248, 21, 57, 1);
+}
+
+.footer-section .follow-instagram img{
+    width: 80px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+@media screen and (max-width:1200px) {
+    .follow-instagram{
+        display: none;
+    }
+}
