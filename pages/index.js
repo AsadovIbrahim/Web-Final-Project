@@ -98,3 +98,29 @@ next10.addEventListener("click",()=>{
 preview10.addEventListener("click",()=>{
     carouselCards10.scrollLeft-=360;
 });
+
+
+document.getElementById('myCard').addEventListener('click', function() {
+    window.open('single.html', '_blank'); 
+  });
+document.getElementById('myCard1').addEventListener('click', function() {
+    window.open('single.html', '_blank');
+  });
+document.getElementById('myCard2').addEventListener('click', function() {
+    window.open('single.html', '_blank'); 
+  });
+document.getElementById('myCard3').addEventListener('click', function() {
+    window.open('single.html', '_blank'); 
+  });
+document.getElementById('myCard4').addEventListener('click', function() {
+    window.open('single.html', '_blank');
+  });
+document.getElementById('myCard5').addEventListener('click', function() {
+    window.open('single.html', '_blank'); 
+  });
+document.getElementById('myCard6').addEventListener('click', function() {
+    window.open('single.html', '_blank'); 
+  });
+document.getElementById('myCard7').addEventListener('click', function() {
+    window.open('single.html', '_blank'); 
+  });
