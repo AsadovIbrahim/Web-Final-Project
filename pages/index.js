@@ -16,39 +16,6 @@ nextBtn.addEventListener("click", () => {
 });
 
 
-let carouselCards=document.querySelector(".cards");
-let preview=document.getElementById("back");
-let next=document.getElementById("next");
-
-next.addEventListener("click",()=>{
-    carouselCards.style.scrollBehavior="smooth";
-    carouselCards.scrollLeft+=360;
-});
-
-preview.addEventListener("click",()=>{
-    carouselCards.style.scrollBehavior="smooth";
-    carouselCards.scrollLeft-=360;
-});
-
-
-
-
-let carouselCards6=document.querySelector(".section-6-mobile-cards");
-let preview6=document.getElementById("back-6");
-let next6=document.getElementById("next-6");
-
-next6.addEventListener("click",()=>{
-    carouselCards6.style.scrollBehavior="smooth";
-    carouselCards6.scrollLeft+=360;
-});
-
-preview6.addEventListener("click",()=>{
-    carouselCards6.style.scrollBehavior="smooth";
-    carouselCards6.scrollLeft-=360;
-});
-
-
-
 
 let carouselCards7=document.getElementById("cards-7");
 let carouselCards7_2=document.getElementById("cards-7-2");
@@ -69,58 +36,61 @@ preview7.addEventListener("click",()=>{
 
 
 
-let carouselCards8=document.querySelector(".cards-8");
-let preview8=document.getElementById("back-8");
-let next8=document.getElementById("next-8");
+function carousel(container,previewId,nextId){
+  let c=document.querySelector(container);
+  let p=document.getElementById(previewId);
+  let n=document.getElementById(nextId);
 
-next8.addEventListener("click",()=>{
-    carouselCards8.style.scrollBehavior="smooth";
-    carouselCards8.scrollLeft+=360;
-});
-
-preview8.addEventListener("click",()=>{
-    carouselCards8.scrollLeft-=360;
-});
-
-
-
-
-
-let carouselCards10=document.querySelector(".cards-10");
-let preview10=document.getElementById("back-10");
-let next10=document.getElementById("next-10");
-
-next10.addEventListener("click",()=>{
-    carouselCards10.style.scrollBehavior="smooth";
-    carouselCards10.scrollLeft+=360;
-});
-
-preview10.addEventListener("click",()=>{
-    carouselCards10.scrollLeft-=360;
-});
-
-
-document.getElementById('myCard').addEventListener('click', function() {
-    window.open('single.html', '_blank'); 
+  n.addEventListener("click",()=>{
+    c.style.scrollBehavior="smooth";
+    c.scrollLeft+=360;
   });
-document.getElementById('myCard1').addEventListener('click', function() {
-    window.open('single.html', '_blank');
+
+  p.addEventListener("click",()=>{
+      c.style.scrollBehavior="smooth";
+      c.scrollLeft-=360;
   });
-document.getElementById('myCard2').addEventListener('click', function() {
-    window.open('single.html', '_blank'); 
+
+}
+carousel(".cards","back","next");
+carousel(".section-6-mobile-cards","back-6","next-6");
+carousel(".cards-8","back-8","next-8");
+carousel(".cards-10","back-10","next-10");
+
+
+
+function navigateTo(container,windowName){
+  document.getElementById(container).addEventListener('click',function(){
+    window.open(windowName,'_blank');
   });
-document.getElementById('myCard3').addEventListener('click', function() {
-    window.open('single.html', '_blank'); 
-  });
-document.getElementById('myCard4').addEventListener('click', function() {
-    window.open('single.html', '_blank');
-  });
-document.getElementById('myCard5').addEventListener('click', function() {
-    window.open('single.html', '_blank'); 
-  });
-document.getElementById('myCard6').addEventListener('click', function() {
-    window.open('single.html', '_blank'); 
-  });
-document.getElementById('myCard7').addEventListener('click', function() {
-    window.open('single.html', '_blank'); 
-  });
+}
+
+navigateTo('myCard','single.html');
+navigateTo('myCard1','single.html');
+navigateTo('myCard2','single.html');
+navigateTo('myCard3','single.html');
+navigateTo('myCard4','single.html');
+navigateTo('myCard5','single.html');
+navigateTo('myCard6','single.html');
+navigateTo('myCard7','single.html');
+
+
+navigateTo('carousel-card','category.html');
+navigateTo('carousel-card-1','category.html');
+navigateTo('carousel-card-2','category.html');
+navigateTo('carousel-card-3','category.html');
+navigateTo('carousel-card-4','category.html');
+navigateTo('carousel-card-5','category.html');
+navigateTo('carousel-card-6','category.html');
+navigateTo('carousel-card-7','category.html');
+
+
+navigateTo('card-end','writer.html');
+navigateTo('card-end-1','writer.html');
+navigateTo('card-end-2','writer.html');
+navigateTo('card-end-3','writer.html');
+navigateTo('card-end-4','writer.html');
+navigateTo('card-end-5','writer.html');
+navigateTo('card-end-6','writer.html');
+navigateTo('card-end-7','writer.html');
+

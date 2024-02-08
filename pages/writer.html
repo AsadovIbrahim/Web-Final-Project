@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asserts/styles/writer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Container for better responsiveness -->
+  <div class="container">
+    <header>
+        <nav class="navbar navbar-expand-lg pt-3">
+            <div class="container">
+                <!-- Brand Section -->
+                <a class="navbar-brand" href="../pages/index.html">MEGA.news</a>
+                
+                <!-- Navbar Toggler for Mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Offcanvas Navigation -->
+                <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" style="color: #FC4308;" id="offcanvasNavbarLabel">MEGA.news</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <!-- Navbar Links -->
+                        <ul class="navbar-nav pt-2 ms-5 navbar-list">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">About Us</a>
+                            </li>
+                        </ul>
+                        <!-- Search Input -->
+                        <div class="search-input1 d-flex ms-5">
+                            <form class="d-flex" role="search">
+                                <div class="search-input d-flex align-items-center p-2 px-2 rounded-3">
+                                    <div class="left-icon d-flex align-items-center">
+                                        <img src="../asserts/images/search-left.png" alt="">
+                                        <input class="ms-3" type="search" placeholder="Search Anything" aria-label="Search">
+                                        <img src="../asserts/images/search.png" alt="" class="search-icon ms-5">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Right Section -->
+                        <div class="right-section d-flex align-items-center ms-5">
+                            <img class="rounded-circle ms-5" src="../asserts/images/avatar.png" alt="avatar">
+                            <p class="mt-3 ms-3">Behzad</p>
+                            <ul class="navbar-nav me-auto navbar-list d-flex align-items-center">
+                                <li>
+                                    <img src="../asserts/images/down.png" class="ms-2" alt="">
+                                </li>
+                                <li>
+                                    <img src="../asserts/images/save-icon.png" class="rounded-circle ms-5" alt="">
+                                </li>
+                            </ul>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+  </div>
+
+
+  <section class="section-1">
+    <div class="writer-main-border container mt-5">
+        <div class="top-img">
+            <img src="../asserts/images/writer-alien.png" alt="">
+        </div>
+        <div class="bottom-container d-flex pt-2">
+            <div class="bottom-img d-flex align-items-center">
+                <img src="../asserts/images/louis.png" alt="">
+                <p class="pt-4 ps-3">Louis Hoebregts</p>
+            </div>
+
+            <div class="icons-container d-flex pt-2">
+                <div class="icons-text d-flex align-items-center">
+                    <img src="../asserts/images/star-writer.png" alt="">
+                    <p class="pt-3 ps-2">Rate: 4.2</p>
+                </div>
+                <div class="icons-text d-flex align-items-center ms-5">
+                    <img src="../asserts/images/follower-writer.png" alt="">
+                    <p class="pt-3 ps-2">follower : 1.2 k</p>
+                </div>
+                <div class="icons-text d-flex align-items-center ms-5">
+                    <img src="../asserts/images/telephone-writer.png" alt="">
+                    <p class="pt-3 ps-2">post : 29 </p>
+                </div>
+            </div>
+
+            <div class="follow-btn d-flex mt-3">
+                <span>+</span>
+                <p class="ps-2">Follow</p>
+            </div>
+
+
+        </div>
+    </div>
+  </section>
+
+
+  <section class="section-2">
+        
+    <div class="section-2-header container mt-5">
+      <div class="left-section">
+        <div class="red"></div>
+        <p class="p-2 pt-4">Latest Posts</p>
+      </div>
+    </div>
+
+    <div class="container cards mt-5">
+      <div class="card" style="width: 19rem;" id="myCard">
+        <img src="../asserts/images/magazine-sport.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Opening Day of Boating Season, Seattle WA</h5>
+          <p class="card-text">Of course the Puget Sound is very watery, and where there is water, there are boats. Today is...</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/james.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>James</b>
+                <p>August 18 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 19rem;" id="myCard1">
+        <img src="../asserts/images/magazine-technology.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">How to choose the right laptop for programming</h5>
+          <p class="card-text">Choosing the right laptop for programming can be a tough process. It’s easy to get confused...</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/louis.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>Louis Hoebregts</b>
+                <p>July 25 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 19rem;" id="myCard2">
+        <img src="../asserts/images/car-magazine1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">How we built the first real self-driving car</h5>
+          <p class="card-text">Electric self-driving cars will save millions of lives and significantly accelerate the world’s...</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/mary.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>Mary</b>
+                <p>July 14 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card" style="width: 19rem;" id="myCard3">
+        <img src="../asserts/images/computer-10.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">How to choose the right laptop for programming</h5>
+          <p class="card-text">Choosing the right laptop for programming can be a tough process. It’s easy to get confused while researching...</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/louis.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>Robert</b>
+                <p>July 14 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container cards mt-5">
+      <div class="card" style="width: 19rem;" id="myCard">
+        <img src="../asserts/images/food-magazine.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">How to Persuade Your Parents to Buy Fast Food</h5>
+          <p class="card-text">Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy...</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/jon.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>Jon Kantner</b>
+                <p>August 18 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 19rem;" id="myCard1">
+        <img src="../asserts/images/car-magazine2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">How to build a self-driving car in one month</h5>
+          <p class="card-text">Can I learn the necessary computer science to build the software part of a self-driving car in one month?</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/mary.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>Mary</b>
+                <p>July 14 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 19rem;" id="myCard2">
+        <img src="../asserts/images/magazine-sport2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Self-Improvement Has Become An Extreme Sport</h5>
+          <p class="card-text">What we’re told we must do each day to develop and be successful has gone out of control.</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/james.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>James</b>
+                <p>July 14 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card" style="width: 19rem;" id="myCard3">
+        <img src="../asserts/images/audi-10.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Why Buying a New Car Makes More Sense than Buying Used</h5>
+          <p class="card-text">Many experts will tell you buying cars used is best for your long-term financial health.</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/mary.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>Mary</b>
+                <p>July 14 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container cards mt-5">
+      <div class="card" style="width: 19rem;" id="myCard">
+        <img src="../asserts/images/food-magazine1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">10 Cooking Lessons to Use in Everyday Life</h5>
+          <p class="card-text">I recently stumbled upon this quote by Paul Theroux: “Cooking requires confident guesswork and improvisation </p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/jon.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>Jon Kantner</b>
+                <p>July 14 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 19rem;" id="myCard1">
+        <img src="../asserts/images/computer-8.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Typography can make or break your design: a process for choosing type</h5>
+          <p class="card-text">One of the most important skills you can learn as a designer is how to choose type.</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/louis.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>Robert</b>
+                <p>July 14 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 19rem;" id="myCard2">
+        <img src="../asserts/images/sport-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">House boating on Lake Shasta</h5>
+          <p class="card-text mt-4">The best way to spend a long 4th of July weekend. Wake boarding, swimming, barbecues, and bonfires.</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/james.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>James</b>
+                <p>July 14 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card" style="width: 19rem;" id="myCard3">
+        <img src="../asserts/images/food-magazine2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lasagna is but a Pasta Cake</h5>
+          <p class="card-text mt-4">Re-envision the description of a common food from a different perspective — it is … pasta cake layered with cheese,...</p>
+          
+          <div class="card-end">
+            <div class="left-section d-flex align-items-center">
+              <img src="../asserts/images/jon.png" alt="">
+              <div class="image-text ps-2 pt-2 mt-2">
+                <b>Jon Kantner</b>
+                <p>July 14 , 2022</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <img src="../asserts/images/save-icon-magazine.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+    </section>
+  
+    <section class="section-2-tablet">
+      <div class="container cards mt-5 d-flex">
+        <div class="card p-2">
+          <img src="../asserts/images/magazine-sport.png" class="rounded" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">Opening Day of Boating Season, Seattle WA</h6>
+            <p class="card-text" style="font-size: 12px;">Of course the Puget Sound is very watery, and where there is water, there are boats. Today is the Grand Opening of Boating Season...</p>
+          
+            <div class="end-body">
+              <div class="left-section d-flex align-items-center">
+                <img class="profile" src="../asserts/images/james.png" alt="">
+                <div class="image-text ps-2 pt-2 mt-2">
+                  <b>James</b>
+                  <p>July 14 , 2022</p>
+                </div>
+              </div>
+              <div class="mt-4">
+                <img src="../asserts/images/save-icon-magazine.png" style="width: 20px;" alt="">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+        <div class="card p-2">
+          <img src="../asserts/images/food-magazine.png" class="rounded" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">How to Persuade Your Parents to Buy Fast Food</h6>
+            <p class="card-text" style="font-size: 12px;">Parents often don’t want to buy fast food. They may be worried that it’s too expensive, unhealthy, or not worth the effort and time.</p>
+          
+            <div class="end-body">
+              <div class="left-section d-flex align-items-center">
+                <img class="profile" src="../asserts/images/jon.png" alt="">
+                <div class="image-text ps-2 pt-2 mt-2">
+                  <b>Jon Kantner</b>
+                  <p>July 10 , 2022</p>
+                </div>
+              </div>
+              <div class="mt-4">
+                <img src="../asserts/images/save-icon-magazine.png" style="width: 20px;" alt="">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        
+
+
+      </div>
+
+
+      <div class="container cards mt-3 d-flex">
+        <div class="card p-2">
+          <img src="../asserts/images/computer-10.png" class="rounded" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">How to choose the right laptop for programming</h6>
+            <p class="card-text" style="font-size: 12px;">Choosing the right laptop for programming can be a tough process. It’s easy to get confused while researching the various options.</p>
+          
+            <div class="end-body">
+              <div class="left-section d-flex align-items-center">
+                <img class="profile" src="../asserts/images/louis.png" alt="">
+                <div class="image-text ps-2 pt-2 mt-2">
+                  <b>Louis Hoebregts</b>
+                  <p>July 25 , 2022</p>
+                </div>
+              </div>
+              <div class="mt-4">
+                <img src="../asserts/images/save-icon-magazine.png" style="width: 20px;" alt="">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+        <div class="card p-2">
+          <img src="../asserts/images/food-magazine1.png" class="rounded" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">10 Cooking Lessons to Use in Everyday Life</h6>
+            <p class="card-text" style="font-size: 12px;">I recently stumbled upon this quote by Paul Theroux: “Cooking requires confident guesswork and improvisation </p>
+          
+            <div class="end-body">
+              <div class="left-section d-flex align-items-center">
+                <img class="profile" src="../asserts/images/jon.png" alt="">
+                <div class="image-text ps-2 pt-2 mt-2">
+                  <b>Jon Kantner</b>
+                  <p>July 12 , 2022</p>
+                </div>
+              </div>
+              <div class="mt-4">
+                <img src="../asserts/images/save-icon-magazine.png" style="width: 20px;" alt="">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container cards mt-3 d-flex">
+        <div class="card p-2">
+          <img src="../asserts/images/car-magazine2.png" class="rounded" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">How to build a self-driving car in one month</h6>
+            <p class="card-text" style="font-size: 12px;">Can I learn the necessary computer science to build the software part of a self-driving car in one month?</p>
+          
+            <div class="end-body">
+              <div class="left-section d-flex align-items-center">
+                <img class="profile" src="../asserts/images/mary.png" alt="">
+                <div class="image-text ps-2 pt-2 mt-2">
+                  <b>Mary</b>
+                  <p>July 10 , 2022</p>
+                </div>
+              </div>
+              <div class="mt-4">
+                <img src="../asserts/images/save-icon-magazine.png" style="width: 20px;" alt="">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+        <div class="card p-2">
+          <img src="../asserts/images/girl-6.png" class="rounded" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">This free course can teach you music...</h6>
+            <p class="card-text" style="font-size: 12px;">A Berlin-based music software company, just released a free interactive music course that runs right in your browser.</p>
+          
+            <div class="end-body">
+              <div class="left-section d-flex align-items-center">
+                <img class="profile" src="../asserts/images/patricia.png" alt="">
+                <div class="image-text ps-2 pt-2 mt-2">
+                  <b>Patricia</b>
+                  <p>July 09 , 2022</p>
+                </div>
+              </div>
+              <div class="mt-4">
+                <img src="../asserts/images/save-icon-magazine.png" style="width: 20px;" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+    <section class="footer-section mb-5">
+      <footer class="pt-5 container d-flex">
+        <div class="left-main">
+          <div class="left-section p-2 d-flex">
+            <div class="left-section-mega-news">
+              <div class="left-section-header align-items-center d-flex">
+                <div class="red">
+                </div>
+                <p class="mt-3 ms-2">Mega News</p>
+              </div>
+              
+              <div class="left-section-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin</p>
+              </div>
+
+              <div class="left-section-header align-items-center d-flex">
+                <div class="red">
+                </div>
+                <p class="mt-3 ms-2">Newsletters</p>
+              </div>
+              <div class="input-section d-flex align-items-center">
+                <form action="">
+                  <div class="input-email d-flex align-items-center">
+                    <input placeholder="Write Your Message..." type="email" name="" id="">
+                    <img src="../asserts/images/message-icon.png" alt="">
+                  </div>
+                </form>
+              </div>
+
+          
+            </div>
+            
+            <div class="right-section-categories ms-5">
+              <div class="left-section-header align-items-center d-flex">
+                <div class="red ms-4">
+                </div>
+                <p class="mt-3 ms-2">Categories</p>
+
+              </div>
+              <div class="categories-list">
+                <ul>
+                  <li>
+                    <a href="">Culture</a>
+                  </li>
+                  <li>
+                    <a href="">Fashion</a>
+                  </li>
+                  <li>
+                    <a href="">Featured</a>
+                  </li>
+                  <li>
+                    <a href="">Food</a>
+                  </li>
+                  <li>
+                    <a href="">Healthy Living </a>
+                  </li>
+                  <li>
+                    <a href="">Technology</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="left-section-header align-items-center d-flex">
+                <div class="red ms-4">
+                </div>
+                <p class="mt-3 ms-2">Social Network</p>
+              </div>
+              <div class="social-networks">
+                <div class="social-network ms-4">
+                  <img class="ms-3 mt-2" src="../asserts/images/instagram-icon.png" alt="">
+                  <img class="ms-2" style="margin-top: 10px; padding-right: 15px;" src="../asserts/images/instagram-text.png" alt="">
+                </div>
+
+                <div class="social-network-tw ms-3">
+                  <img src="../asserts/images/twitter-icon.png" class="" style="margin-top: 10px; margin-left: 12px;" alt="">
+                </div>
+              </div>
+            </div>
+          
+          
+          
+          </div>
+          <div class="copyright-section d-flex">
+            <p class="mt-3">privacy policy | terms & conditions</p>
+            <p class="mt-3">all copyright (c) 2022 reserved</p>
+          </div>
+        </div>
+
+
+        <div class="comments">
+          <div class="left-section-header align-items-center d-flex">
+            <div class="red ms-4">
+            </div>
+            <p class="mt-3 ms-2">New Comments</p>
+          </div>
+
+          <div class="comments-borders ms-3 mt-2">
+            <h5>Ellsmartx</h5>
+            <p>how nice does this look 😍 I feel it should be...</p>
+          </div>
+
+          <div class="comments-borders ms-3 mt-2">
+            <h5>cassia</h5>
+            <p>Take a rest, i'll be cheer up you again in 2 next game...</p>
+          </div>
+
+          <div class="comments-borders ms-3 mt-2">
+            <h5>Amanda</h5>
+            <p>you were stunning today, jan! 💗 great match 👍🏽👍🏽</p>
+          </div>
+
+          <div class="comments-borders ms-3 mt-2">
+            <h5>Denis Simonassi</h5>
+            <p>It was a great match today Janzi! You did great😉🇩🇪</p>
+          </div>
+        </div>
+
+        <div class="follow-instagram">
+          <div class="left-section-header align-items-center d-flex">
+            <div class="red ms-4">
+            </div>
+            <p class="mt-3 ms-2">Follow on Instagram</p>
+          </div>
+
+          <div class="instagram-images d-flex ms-3">
+            <img  src="../asserts/images/car-magazine1.png" alt="">
+            <img class="ms-3" src="../asserts/images/dog-instagram.png" alt="">
+            <img class="ms-3" src="../asserts/images/technology-instagram.png" alt="">
+          </div>
+
+          <div class="instagram-images d-flex ms-3 mt-3">
+            <img  src="../asserts/images/food-instagram.png" alt="">
+            <img class="ms-3" src="../asserts/images/music-instagram.png" alt="">
+            <img class="ms-3" src="../asserts/images/girl-boy-dance.png" alt="">
+          </div>
+
+          <div class="instagram-images d-flex ms-3 mt-3">
+            <img  src="../asserts/images/dog-instagram2.png" alt="">
+            <img class="ms-3" src="../asserts/images/dance-instagram.png" alt="">
+            <img class="ms-3" src="../asserts/images/box.png" alt="">
+          </div>
+        </div>
+
+      </footer>
+    </section>
+
+  <script src="../pages/writer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
