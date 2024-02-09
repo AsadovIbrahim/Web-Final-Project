@@ -169,10 +169,21 @@ nav .categories-list{
     background-color: rgba(255, 255, 255, 0.75);
     left: 0;
     border-radius: 12px;
+    height: 8rem;
     padding: 5px;
     margin: 10px;
     right: 0;
 }
+@media screen and (max-width:1400px) {
+    .section-3-cards .card-text-border{
+        padding-bottom: 150px;
+    }
+}
+
+.section-3-cards .card-text-border p{
+    font-size: 14px;
+}
+
 
 @media screen and (max-width:1024px) {
     .section-3-cards{
