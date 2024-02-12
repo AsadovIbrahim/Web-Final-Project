@@ -179,7 +179,9 @@ nav .categories-list{
 .add-comment .comment img{
     width: 100%;
 }
-
+.form-tablet{
+    display: none;
+}
 .form-section .form{
     display: flex;
     width: 100%;
@@ -526,6 +528,40 @@ textarea{
     }
     
     .section-1 .left-section .comments{
+        display: none;
+    }
+}
+
+.form-tablet .form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form-tablet .form input{
+    background-color: rgba(245, 245, 245, 1);
+    outline: none;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+}
+.form-tablet .form .rate{
+    width: 100%;
+    margin-top: 20px;
+}
+.form-tablet .form .form-end-container{
+    flex-direction: column;
+}
+.form-tablet .send-comment{
+    width: fit-content;
+    margin-left: auto !important;
+}
+
+@media screen and (max-width:1200px) {
+    .form-tablet{
+        display: inline;
+    }
+    .form-section{
         display: none;
     }
 }
