@@ -255,6 +255,8 @@ nav .categories-list{
 
 .section-4 .cards .card{
     flex: none;
+    border: none;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
 
@@ -546,6 +548,8 @@ nav .categories-list{
 .section-7 .section-7-cards .right-section .cards-7 .card{
     flex-direction: row;
     width: 100%;
+    border: none;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
 
     height: 210px;
     flex: none;
@@ -627,6 +631,9 @@ nav .categories-list{
 
 .section-8 .cards-8 .card{
     flex: none;
+    border: none;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+
 }
 
 
@@ -757,6 +764,9 @@ nav .categories-list{
 
 .section-10 .cards-10 .card{
     flex: none;
+    border: none;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+
 }
 
 

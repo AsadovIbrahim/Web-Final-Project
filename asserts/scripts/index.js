@@ -25,13 +25,13 @@ let next7=document.getElementById("next-7");
 next7.addEventListener("click",()=>{
     carouselCards7.style.scrollBehavior="smooth";
     carouselCards7_2.style.scrollBehavior="smooth";
-    carouselCards7.scrollLeft+=360;
-    carouselCards7_2.scrollLeft+=360;
+    carouselCards7.scrollLeft+=560;
+    carouselCards7_2.scrollLeft+=560;
 });
 
 preview7.addEventListener("click",()=>{
-    carouselCards7.scrollLeft-=360;
-    carouselCards7_2.scrollLeft-=360;
+    carouselCards7.scrollLeft-=560;
+    carouselCards7_2.scrollLeft-=560;
 });
 
 

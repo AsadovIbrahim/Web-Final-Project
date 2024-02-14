@@ -131,7 +131,7 @@ nav .categories-list{
 }
 
 .section-1 .second-card img{
-    width: 700px;
+    width: 80%;
     display: block;
     margin: 0 auto;
     border-radius: 12px;
@@ -320,6 +320,9 @@ textarea{
 
 .section-2 .cards-8 .card{
     flex: none;
+    border: none;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+
 }
 
 
@@ -506,7 +509,7 @@ textarea{
         display: none;
     }
     .section-1 .second-card img{
-        width: 400px;
+        width: 80%;
     }
     .section-1 .left-section .first-card{
         height: 300px;
@@ -532,6 +535,11 @@ textarea{
     }
 }
 
+@media screen and (max-width:430px) {
+    .section-1 .first-card-icons-container{
+        padding-top: 30px;
+    }
+}
 .form-tablet .form{
     display: flex;
     width: 100%;

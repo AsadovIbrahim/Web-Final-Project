@@ -98,131 +98,26 @@ nav .categories-list{
     
 }
 
-
-
-.section-2-header{
-    display: flex;
-    justify-content: space-between;
+.section-404 .container-404{
+    text-align: center;
 }
-.section-2-header .left-section{
-    display: flex;
-    align-items: center;
-    line-height: 23.44px;
+.section-404 .container-404{
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 100px;
+    
+}
+.section-404 .text-404{
+    font-size: 192px;
+    color: rgba(252, 67, 8, 1);
     font-weight: 500;
+    text-shadow: 0px 0px 44px rgba(252, 67, 8, 0.35)
 }
 
-.section-2-header .left-section .red{
-    width: 4px;
-    height: 10px;
-    border-radius: 12px;
-    background-color: rgba(248, 21, 57, 1);
-}
-.section-2 .cards{
-    display: flex;
-    gap: 25px;
-}
-
-.section-2 .cards .card{
-    border: none;
-    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
-
-}
-
-
-.section-2 .cards h5{
-    font-size: 16px !important;
-}
-
-.section-2 .cards p{
-    font-size: 14px;
+.section-404 .help-text{
+    font-size: 16px;
+    font-weight: 500;
     color: rgba(62, 50, 50, 0.75);
-    text-transform: capitalize;
-}
-
-.section-2 .card-end{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 12px;
-    background-color: rgba(245, 245, 245, 1);
-}
-.section-2 .card-end .left-section .image-text{
-    line-height: 22px;
-    align-items: center;
-}
-.section-2 .card-end .left-section .image-text b{
-    font-size: 14px;
-}
-.section-2 .card-end .left-section .image-text p{
-    font-size: 12px;
-}
-
-.section-2 .card-end .left-section img{
-    border-radius: 12px;
-}
-
-
-
-.section-2-tablet{
-    display: none;
-}
-.section-2-tablet .card img{
-    width: 60%;
-    object-fit: cover;
-}
-.section-2-tablet .cards{
-    display: flex;
-    justify-content: space-between;
-}
-.section-2-tablet .card{
-    max-width: 40em;
-    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
-    border: none;
-    flex-direction: row;
- }
- 
- .section-2-tablet .end-body{
-    display: flex;
-    border-radius: 12px;
-    justify-content: space-between;
-    background-color: rgba(245, 245, 245, 1);
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.section-2-tablet .end-body p{
-    font-size: 12px;
-}
-
-.section-2-tablet .end-body .profile{
-    width: 44px;
-    border-radius: 12px;
-}
-@media screen and (max-width:1024px) {
-    .section-2 .cards{
-        display: none;
-    }
-    .section-2-tablet{
-        display: inline;
-    }
-    .section-2-tablet .cards{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width:460px) {
-    .section-2-tablet{
-        display: none;
-    }
-    .section-2-header{
-        width: 80%;
-    }
-    .section-2 .cards{
-        display: inline;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 
