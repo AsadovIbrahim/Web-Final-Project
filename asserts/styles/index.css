@@ -110,6 +110,9 @@ nav .categories-list{
     color: #ffffff;
     position: relative;
 }
+.second-section .card:hover{
+    cursor: pointer;
+}
 .second-section .card p{
     position: absolute;
 }
@@ -157,6 +160,7 @@ nav .categories-list{
     display: flex;
     position: sticky;
     right: 0;
+    cursor: pointer;
 
 }
 
@@ -259,7 +263,9 @@ nav .categories-list{
     box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
-
+.section-4 .card-img{
+    cursor: pointer;
+}
 .section-4 .cards h5{
     font-size: 16px !important;
 }
@@ -274,6 +280,7 @@ nav .categories-list{
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
+    cursor: pointer;
     padding-right: 10px;
     border-radius: 12px;
     background-color: rgba(245, 245, 245, 1);
